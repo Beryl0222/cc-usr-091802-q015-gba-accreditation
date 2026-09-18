@@ -1,0 +1,16 @@
+{
+  "service": "gba-accreditation",
+  "context": {
+    "regions": [
+      "Guangdong",
+      "Hong Kong",
+      "Macao"
+    ],
+    "roles": [
+      "athlete",
+      "coach",
+      "staff"
+    ],
+    "offline_ttl_minutes": 30
+  }
+}
