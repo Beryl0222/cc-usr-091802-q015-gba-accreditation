@@ -11,6 +11,56 @@
       "coach",
       "staff"
     ],
-    "offline_ttl_minutes": 30
+    "requirement_codes": [
+      "id_document",
+      "insurance",
+      "anti_doping_declaration",
+      "guardian_consent"
+    ],
+    "requirement_notes": {
+      "guardian_consent": "minor athletes only"
+    },
+    "verification_agencies": [
+      "ag-gd-entry",
+      "ag-hk-immigration",
+      "ag-insurer",
+      "ag-anti-doping",
+      "ag-guardian"
+    ],
+    "decision_kinds": [
+      "roster_change",
+      "verification",
+      "appeal",
+      "exemption",
+      "suspension",
+      "resolution"
+    ],
+    "eligibility_statuses": [
+      "eligible",
+      "pending",
+      "ineligible",
+      "suspended",
+      "off_roster"
+    ],
+    "item_statuses": [
+      "missing",
+      "in_review",
+      "verified",
+      "expired",
+      "rejected",
+      "conflict",
+      "exempted",
+      "appeal_upheld"
+    ],
+    "urgency_order": [
+      "conflict",
+      "expired",
+      "rejected",
+      "missing",
+      "in_review",
+      "expiring_during_event"
+    ],
+    "offline_ttl_minutes": 30,
+    "receipt_grace_minutes": 30
   }
 }
