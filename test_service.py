@@ -17,6 +17,14 @@ class BaselineContractTest(unittest.TestCase):
         self.assertIsInstance(data["context"], dict)
         self.assertTrue(data["context"])
 
+    def test_fixture_offline_ttl_matches_domain(self):
+        from accreditation import DEFAULT_OFFLINE_TTL_MINUTES
+
+        data = json.loads(Path("fixtures/sample.json").read_text(encoding="utf-8"))
+        self.assertEqual(
+            data["context"]["offline_ttl_minutes"], DEFAULT_OFFLINE_TTL_MINUTES
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

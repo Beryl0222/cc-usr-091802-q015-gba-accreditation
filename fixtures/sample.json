@@ -11,6 +11,18 @@
       "coach",
       "staff"
     ],
+    "materials": [
+      "identity",
+      "insurance",
+      "anti_doping",
+      "guardian_consent"
+    ],
+    "agencies": {
+      "identity": "证件查验中心",
+      "insurance": "保险核验平台",
+      "anti_doping": "反兴奋剂中心",
+      "guardian_consent": "未成年保护核验处"
+    },
     "offline_ttl_minutes": 30
   }
 }
